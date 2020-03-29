@@ -63,9 +63,6 @@ logo. Det kan ændres ved at skifte linket på `linje 173`. Husk det
 skal være samme størrelse som det der er allerede.*<br>
 server/resources/[vrp]/vrp/gui/design.css
 
-**PAS:**<br>
-server/resources/[vrp]/vrp_register/html/assets/images
-
 **LOGO I TOPPEN AF SKÆRMEN INGAME:**<br>
 server/resources/[Misc]/logo/ui/img/logo.png
 
