@@ -14,6 +14,7 @@ CREDIT FOR SERVEREN, GÅR TIL **OLSEN1157**
 - Mappen *SERVER* indeholder alle serverfilerne. Den indeholder også filen *RunServer1* som starter serveren.
 - Filen SQL skal ligges ind på databasen. Søg på Youtube hvis du ikke ved hvordan. Husk at ændre database konfigurationerne inde på *server/server.cfg* og *server/resources/[vrp]/vrp/cfg/base.lua*. Whitelist kan også slåes fra inde på base.lua ved at skrive *false* ved `linje 12`
 - Husk at download artifacts fra https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/ og smid dem ind i mappen *server*
+- Husk at skift STEAM WEBAPI KEY for, at steam virker. Kan ændres inde på *server/server.cfg*. Lav et API key her: https://steamcommunity.com/dev/apikey
 - Porten på serveren er som standard *:30001*
 
 ## Ændres
