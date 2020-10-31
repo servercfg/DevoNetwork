@@ -1,4 +1,0 @@
-﻿-- logger module started --
-core: one instance mode ENABLED
-core: VLC kører med standardbrugerfladen. Brug "cvlc" for at køre VLC uden brugerflade.
--- logger module stopped --
