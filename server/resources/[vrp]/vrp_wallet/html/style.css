@@ -1,0 +1,52 @@
+
+@font-face {
+		 font-family: 'Raleway', sans-serif;
+}
+
+#wrapperHUD {
+	opacity: 0;
+	margin-top: 200px;
+	/*margin: 0 auto;*/
+	margin-left: -20vw;/*-7px*/;
+	display: flex; 
+	flex-direction: row;
+	height: 180px;
+	width: 15vw;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	border-bottom-right-radius: 40px;
+	border-top-right-radius: 40px;
+	border: 1px solid #333;
+}
+
+#bank, #wallet {
+	display: none;
+        font-family: 'Raleway', sans-serif;
+        text-shadow: 2px 2px black;
+	color: white;
+	font-size: 35px;	
+}
+
+#moneySection {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-top: 0px;
+	width: 15.6vw;
+	height: 180px;
+	background: rgba(0,0,0,0.3);
+	border-bottom-right-radius: 40px;
+	border-top-right-radius: 40px;
+	border: 1px solid #333;
+}
+
+ #bankImg, #walletImg{
+	margin: 0 10px 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+#bankImg{height: 35px;}
+#walletImg{height: 40px;}
