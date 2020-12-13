@@ -1,0 +1,188 @@
+@font-face {
+	font-family: "AFKlampenborg";
+	src: url("AFKlampenborg_Medium.ttf");
+}
+
+
+body
+{
+    background-image: url('loading.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#logo
+{
+    width: 100%;
+    height: 110%;
+    background-size: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.log
+{
+    color: transparent;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.log-top-right
+{
+    top: 20px;
+    right: 20px;
+    text-align: right;
+    display: none;
+}
+
+
+#loader{
+    margin-top: 68vh;
+    margin-left: 78.5vw;
+    font-size: 20px;
+    color: #fff;
+    font-family: "AFKlampenborg", sans-serif;
+}
+
+#music-info{
+    margin-top: 85vh;
+    margin-left: 50vw;
+    font-size: 20px;
+    color: #fff;
+    font-family: "AFKlampenborg", sans-serif;
+}
+
+
+
+.loading-container
+{
+    position: absolute;
+    left: 74.5%;
+    right: -40%;
+    bottom: 30%;
+
+
+    z-index: 5;
+
+    color: #fff;
+
+    font-family: Arial;
+
+}
+
+.loading-labels
+{
+    width: 100%;
+    height: 20px;
+    margin: 5px 3px 12px 2px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    display: inline;
+    white-space: nowrap;
+}
+.loading-labels p {
+    display: block;
+}
+
+.loading-labels div
+{
+    display: none;
+    text-align: left;
+    font-size: 20px;
+    position: relative;
+}
+
+.loading-bar-container
+{
+    width: 20.1%;
+    background-color: rgba(140, 140, 140, .9);
+    height: 20px;
+    margin: 5px 3px 5px 2px;
+    background-color: #414040;
+    border-radius: 16px;
+    padding: 5px;
+    text-align: left;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    white-space: nowrap;
+}
+
+.loading-bar
+{
+    width: 0%;
+    height: 20px;
+    background-size: 30px 30px;
+    display: none;
+    transition: width 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.bgcolor-first
+{
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    background-color: #ff8484;
+}
+
+.bgcolor-second
+{
+    background-color: #ef5858;
+}
+
+.bgcolor-third
+{
+    background-color: #db3434;
+}
+
+.bgcolor-fourth
+{
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background-color: #c40b0b;
+}
+
+
+.color-first
+{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.color-second
+{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.color-third
+{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.color-fourth
+{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+body{margin:0;height:100%;}
+canvas{
+    position:absolute;top:0;left:0
+    
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(105,173,212)),
+        color-stop(0.84, rgb(23,82,145))
+    );
+}
