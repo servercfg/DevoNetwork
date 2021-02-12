@@ -17,6 +17,9 @@ CREDIT FOR SERVEREN, GÅR TIL **OLSEN1157**
 - Husk at skift STEAM WEBAPI KEY for, at steam virker. Kan ændres inde på *server/server.cfg*. Lav et API key her: https://steamcommunity.com/dev/apikey
 - Porten på serveren er som standard *:30001*
 
+## Features
+- Custom biler - Liste: https://pastebin.com/c24G3mQ6 KODDE: JERERDOVEN
+
 ## Ændres
 
 **LOGO ÆNDRES:**<br>
