@@ -18,7 +18,7 @@ CREDIT FOR SERVEREN, GÅR TIL **OLSEN1157**
 - Porten på serveren er som standard *:30001*
 
 ## Features
-- Custom biler - Liste: https://pastebin.com/c24G3mQ6 KODDE: JERERDOVEN
+- Custom biler - Liste: https://pastebin.com/c24G3mQ6 KODE: JEGERDOVEN
 
 ## Ændres
 
