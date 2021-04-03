@@ -1,0 +1,71 @@
+local cfg = {}
+
+cfg.inventory_weight_per_strength = 10 -- weight for an user inventory per strength level (no unit, but thinking in "kg" is a good norm)
+
+-- default chest weight for vehicle trunks
+cfg.default_vehicle_chest_weight = 50
+
+-- define vehicle chest weight by model in lower case
+cfg.vehicle_chest_weights = {
+-- lastbiler
+	["tiptruck"] = 250,
+	["rumpo2"] = 100,
+	["minivan"] = 100,
+	["moonbeam2"] = 100,
+	["speedo4"] = 100,
+	["surfer"] = 100,
+	["bf400"] = 5,
+	["akuma"] = 5,
+	["sanchez"] = 5,
+	["bati"] = 5,
+	["dubsta2"] = 80,
+	["granger"] = 100,
+	["yosemite"] = 100,
+	["bobcatxl"] = 100,
+	["journey"] = 100,
+	["bison"] = 100,
+	["burrito4"] = 100,
+	["burrito"] = 100,
+	["youga"] = 100,
+	["paradise"] = 100,
+	["bmx"] = 0,
+	["cruiser"] = 0,
+	["fixter"] = 0,
+	["Scorcher"] = 0,
+	["tribike"] = 0,
+	["tribike2"] = 0,
+	["tribike3"] = 0,
+	["gargoyle"] = 2,
+	["dubsta3"] = 160,
+	["rumpo"] = 125,
+	["718boxster"] = 60,
+	["a45amg"] = 30,
+	["bmci"] = 60,
+	["bmws"] = 5,
+	["c7"] = 40,
+	["cls2015"] = 60,
+	["dawn"] = 60,
+	["fc15"] = 40,
+	["g65amg"] = 80,
+	["huralbcamber"] = 20,
+	["i8"] = 20,
+	["lp610"] = 20,
+	["m6f13"] = 60,
+	["mgt"] = 50,
+	["mi8"] = 20,
+	["panamera17turbo"] = 60,
+	["pcs18"] = 65,
+	["r1"] = 5,
+	["r8ppi"] = 20,
+	["rs7"] = 45,
+	["s500w222"] = 55,
+	["sq72016"] = 65,
+	["srt8"] = 65,
+	["urus2018"] = 65,
+	["x6m"] = 60,
+	["zl12017"] = 60,
+	["mule3"] = 300,
+	["sq72016"] = 110,
+}
+
+return cfg
