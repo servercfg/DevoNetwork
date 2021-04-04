@@ -1,0 +1,124 @@
+@font-face {
+  font-family: justsignature;
+  src: url('../fonts/justsignature/JustSignature.woff');
+}
+p {
+  padding: 0;
+  margin: 0;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
+}
+#id-card {
+  position: relative;
+  display: none;
+  margin: 230px 50px 0 0;
+  float: right;
+  width: 457px;
+  height: 272px;
+  padding: 0 0 0 0;
+  display:none;
+  background: url("../images/idcard.png");
+}
+#license {
+  position: relative;
+  display: none;
+  margin: 230px 50px 0 0;
+  float: right;
+  width: 457px;
+  height: 272px;
+  padding: 0 0 0 0;
+  display:none;
+  background: url("../images/idcard.png");
+}
+.person-details{
+	position:absolute;
+	top:130px;
+	left:35px;
+	font-size:18px;
+	line-height:18px;
+}
+
+.lastname{
+	font-size:10px;
+	font-weight:bold;
+	position:absolute;
+	top:54px;
+	left:155px;
+}
+
+.firstname{
+	font-size:10px;
+	font-weight:bold;
+	position:absolute;
+	top:70px;
+	left:155px;
+}
+
+.licensedob{
+	font-size:10px;
+	font-weight:bold;
+	position:absolute;
+	top:87px;
+	left:155px;
+}
+
+.validfrom{
+	font-size:10px;
+	font-weight:bold;
+	position:absolute;
+	top:104px;
+	left:155px;
+}
+.validto{
+	font-size:10px;
+	font-weight:bold;
+	position:absolute;
+	top:120px;
+	left:155px;
+}
+.police{
+	font-size:10px;
+	font-weight:bold;
+	position:absolute;
+	top:104px;
+	left:240px;
+}
+.cpr{	
+	font-size:10px;
+	font-weight:bold;
+	position:absolute;
+	top:120px;
+	left:240px;
+}
+.licensenr{
+	position:absolute;
+	top:20px;
+	left:0px;
+	font-size:18px;
+	line-height:18px;
+}
+.sig{
+	color: #222222;
+	font-size: 19px;
+	text-transform:capitalize;
+	font-family: justsignature;
+	position:absolute;
+	top:170px;
+	left:165px;
+}
+.licensetypes{
+	font-size:10px;
+	font-weight:bold;
+	position:absolute;
+	top:213px;
+	left:48px;
+}
+
+.socialcpr{
+	position:absolute;
+	top:110px;
+	left:35px;
+	font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
+	font-weight:bold;
+	font-size:22px;
+	line-height:18px;
+}
